@@ -1,0 +1,17 @@
+{
+  "title": "IES-R (Impact of Event Scale - Revised)",
+  "instruction": "Below is a list of difficulties people sometimes have after stressful life events. Please read each item, and then indicate how distressing each difficulty has been for you DURING THE PAST SEVEN DAYS. Respond with 11 numbers (0–4).",
+  "questions": [
+    {"id": 1, "text": "Any reminder brought back feelings about it", "options": "0=Not at all 1=A little bit 2=Moderately 3=Quite a bit 4=Extremely"},
+    {"id": 2, "text": "I had trouble staying asleep", "options": "0=Not at all 1=A little bit 2=Moderately 3=Quite a bit 4=Extremely"},
+    {"id": 3, "text": "Other things kept making me think about it", "options": "0=Not at all 1=A little bit 2=Moderately 3=Quite a bit 4=Extremely"},
+    {"id": 4, "text": "I felt irritable and angry", "options": "0=Not at all 1=A little bit 2=Moderately 3=Quite a bit 4=Extremely"},
+    {"id": 5, "text": "I avoided letting myself get upset when I thought about it or was reminded of it", "options": "0=Not at all 1=A little bit 2=Moderately 3=Quite a bit 4=Extremely"},
+    {"id": 6, "text": "I thought about it when I didn't mean to", "options": "0=Not at all 1=A little bit 2=Moderately 3=Quite a bit 4=Extremely"},
+    {"id": 7, "text": "I felt as if it hadn't happened or wasn't real", "options": "0=Not at all 1=A little bit 2=Moderately 3=Quite a bit 4=Extremely"},
+    {"id": 8, "text": "I stayed away from reminders about it", "options": "0=Not at all 1=A little bit 2=Moderately 3=Quite a bit 4=Extremely"},
+    {"id": 9, "text": "Pictures about it popped into my mind", "options": "0=Not at all 1=A little bit 2=Moderately 3=Quite a bit 4=Extremely"},
+    {"id": 10, "text": "I was jumpy and easily startled", "options": "0=Not at all 1=A little bit 2=Moderately 3=Quite a bit 4=Extremely"},
+    {"id": 11, "text": "I tried not to think about it", "options": "0=Not at all 1=A little bit 2=Moderately 3=Quite a bit 4=Extremely"}
+  ]
+}

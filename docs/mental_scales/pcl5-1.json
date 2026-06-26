@@ -1,0 +1,15 @@
+{
+  "title": "PTSD Checklist for DSM-5 (PCL-5)",
+  "instruction": "Below is a list of problems that people sometimes have in response to a very stressful experience. Keeping your worst event in mind, please read each problem carefully and then select a number to indicate how much you have been bothered by that problem in the past month. Respond with 10 numbers in sequence (score for item 1, then item 2, ... up to item 10).",
+  "questions": [
+    {"id": 1, "text": "1. Repeated, disturbing, and unwanted memories of the stressful experience?", "options": "0=Not at all 1=A little bit 2=Moderately 3=Quite a bit 4=Extremely"},
+    {"id": 2, "text": "2. Repeated, disturbing dreams of the stressful experience?", "options": "0=Not at all 1=A little bit 2=Moderately 3=Quite a bit 4=Extremely"},
+    {"id": 3, "text": "3. Suddenly feeling or acting as if the stressful experience were actually happening again (as if you were actually back there reliving it)?", "options": "0=Not at all 1=A little bit 2=Moderately 3=Quite a bit 4=Extremely"},
+    {"id": 4, "text": "4. Feeling very upset when something reminded you of the stressful experience?", "options": "0=Not at all 1=A little bit 2=Moderately 3=Quite a bit 4=Extremely"},
+    {"id": 5, "text": "5. Having strong physical reactions when something reminded you of the stressful experience (for example, heart pounding, trouble breathing, sweating)?", "options": "0=Not at all 1=A little bit 2=Moderately 3=Quite a bit 4=Extremely"},
+    {"id": 6, "text": "6. Avoiding memories, thoughts, or feelings related to the stressful experience?", "options": "0=Not at all 1=A little bit 2=Moderately 3=Quite a bit 4=Extremely"},
+    {"id": 7, "text": "7. Avoiding external reminders of the stressful experience (for example, people, places, conversations, activities, objects, or situations)?", "options": "0=Not at all 1=A little bit 2=Moderately 3=Quite a bit 4=Extremely"},
+    {"id": 8, "text": "8. Trouble remembering important parts of the stressful experience?", "options": "0=Not at all 1=A little bit 2=Moderately 3=Quite a bit 4=Extremely"},
+    {"id": 9, "text": "9. Having strong negative beliefs about yourself, other people, or the world (for example, having thoughts such as: I am bad, there is something seriously wrong with me, no one can be trusted, the world is completely dangerous)?", "options": "0=Not at all 1=A little bit 2=Moderately 3=Quite a bit 4=Extremely"},
+    {"id": 10, "text": "10. Blaming yourself or someone else for the stressful experience or what happened after it?", "options": "0=Not at all 1=A little bit 2=Moderately 3=Quite a bit 4=Extremely"}
+  ]}

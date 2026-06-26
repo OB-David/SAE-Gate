@@ -1,0 +1,16 @@
+{
+  "title": "PTSD Checklist for DSM-5 (PCL-5)",
+  "instruction": "Below is a list of problems that people sometimes have in response to a very stressful experience. Keeping your worst event in mind, please read each problem carefully and then select a number to indicate how much you have been bothered by that problem in the past month. Respond with 10 numbers in sequence (score for item 1, then item 2, ... up to item 10).",
+  "questions": [
+    {"id": 1, "text": "11. Having strong negative feelings such as fear, horror, anger, guilt, or shame?", "options": "0=Not at all 1=A little bit 2=Moderately 3=Quite a bit 4=Extremely"},
+    {"id": 2, "text": "12. Loss of interest in activities that you used to enjoy?", "options": "0=Not at all 1=A little bit 2=Moderately 3=Quite a bit 4=Extremely"},
+    {"id": 3, "text": "13. Feeling distant or cut off from other people?", "options": "0=Not at all 1=A little bit 2=Moderately 3=Quite a bit 4=Extremely"},
+    {"id": 4, "text": "14. Trouble experiencing positive feelings (for example, being unable to feel happiness or have loving feelings for people close to you)?", "options": "0=Not at all 1=A little bit 2=Moderately 3=Quite a bit 4=Extremely"},
+    {"id": 5, "text": "15. Irritable behavior, angry outbursts, or acting aggressively?", "options": "0=Not at all 1=A little bit 2=Moderately 3=Quite a bit 4=Extremely"},
+    {"id": 6, "text": "16. Taking too many risks or doing things that could cause you harm?", "options": "0=Not at all 1=A little bit 2=Moderately 3=Quite a bit 4=Extremely"},
+    {"id": 7, "text": "17. Being \"superalert\" or watchful or on guard?", "options": "0=Not at all 1=A little bit 2=Moderately 3=Quite a bit 4=Extremely"},
+    {"id": 8, "text": "18. Feeling jumpy or easily startled?", "options": "0=Not at all 1=A little bit 2=Moderately 3=Quite a bit 4=Extremely"},
+    {"id": 9, "text": "19. Having difficulty concentrating?", "options": "0=Not at all 1=A little bit 2=Moderately 3=Quite a bit 4=Extremely"},
+    {"id": 10, "text": "20. Trouble falling or staying asleep?", "options": "0=Not at all 1=A little bit 2=Moderately 3=Quite a bit 4=Extremely"}
+  ]
+}

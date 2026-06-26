@@ -1,0 +1,17 @@
+{
+  "title": "IES-R (Impact of Event Scale - Revised)",
+  "instruction": "Below is a list of difficulties people sometimes have after stressful life events. Please read each item, and then indicate how distressing each difficulty has been for you DURING THE PAST SEVEN DAYS. Respond with 11 numbers (0–4).",
+  "questions": [ 
+    {"id": 1, "text": "I was aware that I still had a lot of feelings about it, but I didn't deal with them", "options": "0=Not at all 1=A little bit 2=Moderately 3=Quite a bit 4=Extremely"},
+    {"id": 2, "text": "My feelings about it were kind of numb", "options": "0=Not at all 1=A little bit 2=Moderately 3=Quite a bit 4=Extremely"},
+    {"id": 3, "text": "I found myself acting or feeling as though I was back at that time", "options": "0=Not at all 1=A little bit 2=Moderately 3=Quite a bit 4=Extremely"},
+    {"id": 4, "text": "I had trouble falling asleep", "options": "0=Not at all 1=A little bit 2=Moderately 3=Quite a bit 4=Extremely"},
+    {"id": 5, "text": "I had waves of strong feelings about it", "options": "0=Not at all 1=A little bit 2=Moderately 3=Quite a bit 4=Extremely"},
+    {"id": 6, "text": "I tried to remove it from my memory", "options": "0=Not at all 1=A little bit 2=Moderately 3=Quite a bit 4=Extremely"},
+    {"id": 7, "text": "I had trouble concentrating", "options": "0=Not at all 1=A little bit 2=Moderately 3=Quite a bit 4=Extremely"},
+    {"id": 8, "text": "Reminders of it caused me to have physical reactions, such as sweating, trouble breathing, nausea, or a pounding heart", "options": "0=Not at all 1=A little bit 2=Moderately 3=Quite a bit 4=Extremely"},
+    {"id": 9, "text": "I had dreams about it", "options": "0=Not at all 1=A little bit 2=Moderately 3=Quite a bit 4=Extremely"},
+    {"id": 10, "text": "I felt watchful or on-guard", "options": "0=Not at all 1=A little bit 2=Moderately 3=Quite a bit 4=Extremely"},
+    {"id": 11, "text": "I tried not to talk about it", "options": "0=Not at all 1=A little bit 2=Moderately 3=Quite a bit 4=Extremely"}
+  ]
+}
