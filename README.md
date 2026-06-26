@@ -50,25 +50,25 @@ python SAE-Gate/feature_extraction.py
 
 SAE-Gate intervenes inside the model at selected residual-stream layers. Given the hidden state \(h_l\) at layer \(l\), the SAE encoder computes sparse feature activations:
 
-\[
+$$
 z_l = \operatorname{TopK}(h_l W_{\mathrm{enc},l}^{\top} + b_{\mathrm{enc},l})
-\]
+$$
 
 Let \(S_l\) be the PTSD-related feature set extracted for layer \(l\), and let \(g_l\) be the gate value. SAE-Gate edits only the selected feature dimensions:
 
-\[
+$$
 z'_{l,i} =
 \begin{cases}
 g_l z_{l,i}, & i \in S_l \\
 z_{l,i}, & i \notin S_l
 \end{cases}
-\]
+$$
 
 The feature-space change is decoded back to residual space and added to the original hidden state:
 
-\[
+$$
 h'_l = h_l + (z'_l - z_l) W_{\mathrm{dec},l}
-\]
+$$
 
 With a gate value of `0`, the selected PTSD-related SAE features are suppressed. With a value between `0` and `1`, they are partially reduced. The current scripts apply gates on layers `20`, `22`, and `24`:
 
