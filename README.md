@@ -48,13 +48,13 @@ python SAE-Gate/feature_extraction.py
 
 ### SAE-Gate Intervention
 
-SAE-Gate intervenes inside the model at selected residual-stream layers. Given the hidden state \(h_l\) at layer \(l\), the SAE encoder computes sparse feature activations:
+SAE-Gate intervenes inside the model at selected residual-stream layers. Given the hidden state $h_l$ at layer $l$, the SAE encoder computes sparse feature activations:
 
 $$
-z_l = \operatorname{TopK}(h_l W_{\mathrm{enc},l}^{\top} + b_{\mathrm{enc},l})
+z_l = \mathrm{TopK}(h_l W_{\mathrm{enc},l}^{\top} + b_{\mathrm{enc},l})
 $$
 
-Let \(S_l\) be the PTSD-related feature set extracted for layer \(l\), and let \(g_l\) be the gate value. SAE-Gate edits only the selected feature dimensions:
+Let $S_l$ be the PTSD-related feature set extracted for layer $l$, and let $g_l$ be the gate value. SAE-Gate edits only the selected feature dimensions:
 
 $$
 z'_{l,i} =
